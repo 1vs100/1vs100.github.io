@@ -1,0 +1,85 @@
+/* 1vs100 theme override: the gameserver/site stage look on materialx.
+   Values ported from gameserver/site/src/styles.css. Normal pages stay
+   readable materialx; this file only accents. */
+
+:root {
+  --blue: #3d6bff;
+  --violet: #8b3dff;
+  --magenta: #e23fd2;
+  --red: #ff2d55;
+  --show: linear-gradient(90deg, var(--blue), var(--violet) 40%, var(--magenta) 70%, var(--red));
+  --stage: #07061a;
+  --md-text-font-family: "Segoe UI Variable Text", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", sans-serif;
+}
+
+/* Gradient accent bar under the header, in both color schemes. */
+.md-header::after {
+  content: "";
+  display: block;
+  height: 3px;
+  background: var(--show);
+}
+
+/* Links: violet accent on light pages, soft violet on dark pages. */
+body[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #6a2ff0;
+  --md-accent-fg-color: var(--magenta);
+  --md-typeset-a-color: #6a2ff0;
+}
+
+body[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #b28cff;
+  --md-accent-fg-color: var(--magenta);
+  --md-typeset-a-color: #b28cff;
+}
+
+/* Dark scheme first, matching the live site: deep stage background,
+   light section headings, glassy note cards. */
+body[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #0d0b1f;
+}
+
+.md-typeset h1,
+.md-typeset h2 {
+  font-weight: 300;
+  letter-spacing: -0.01em;
+}
+
+body[data-md-color-scheme="slate"] .md-typeset .admonition {
+  background-color: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+body[data-md-color-scheme="slate"] .md-typeset table:not([class]) {
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+/* Homepage hero: dark studio stage with a gradient headline. */
+.stage-hero {
+  color: #fff;
+  background:
+    radial-gradient(900px 520px at 8% 30%, rgba(61, 107, 255, 0.55), transparent 65%),
+    radial-gradient(900px 560px at 95% 60%, rgba(255, 45, 85, 0.5), transparent 65%),
+    radial-gradient(700px 400px at 55% 100%, rgba(226, 63, 210, 0.4), transparent 70%),
+    var(--stage);
+  border-radius: 12px;
+  padding: 2.5rem 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.stage-hero h1 {
+  margin-top: 0;
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: -0.01em;
+  text-shadow: 0 2px 24px rgba(0, 0, 0, 0.45);
+}
+
+.stage-hero p {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.stage-hero a {
+  color: #fff;
+  text-decoration: underline;
+}
