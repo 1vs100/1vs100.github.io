@@ -37,7 +37,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with properdocs
-        run: porperdocs build -f properdocs.yml
+        run: properdocs build -f properdocs.yml
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
