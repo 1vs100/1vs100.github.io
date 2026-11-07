@@ -12,8 +12,8 @@ community project runs the show again. [More about the project](about.md).
 
 - **You have a modded Xbox 360** → [Xbox 360 setup](xbox-360.md): copy a few
   files to the console and start the game.
-- **You want to play on a PC** (Windows or Linux) → [PC setup](pc.md): point
-  the game at your files, export your Avatar, and play.
+- **You want to play on a PC** (Windows, Linux or Mac) → [PC setup](pc.md):
+  install the game, add your files, pick your Avatar, and play.
 - **You have an Xbox One or Xbox Series in Dev Mode** →
   [Xbox One / Xbox Series setup](xbox-one-series.md): install the app and
   hand it your game files.
