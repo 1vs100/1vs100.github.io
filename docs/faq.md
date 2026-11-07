@@ -6,13 +6,10 @@ what you saw, roughly when it happened.
 
 ## The launcher shows an error (Xbox 360)
 
-The launcher tells you what is missing — a file, a package, or a setting.
-Re-check the step it names in [Xbox 360 setup](xbox-360.md), most often:
-
-- `default.xex` (the renamed launcher), `1vs100Reborn.xex`, and
-  `1vs100Reborn.ini` all in the same folder.
-- Your profile signed in on the **first controller** before starting.
-- The `[backend] host=` address in `1vs100Reborn.ini`.
+The message names what is missing. The table in
+[Xbox 360 setup](xbox-360.md#if-something-goes-wrong) lists every message and
+what to do. If the game simply does not start, the game package is missing
+or has the wrong name.
 
 ## My checksum does not match the table
 
@@ -22,15 +19,16 @@ A wrong or half-copied package fails later in confusing ways. See
 
 ## The console ignores a package I copied
 
-The file name must be **only** the content id, with no extension
-(`77205BC…B1`, not `77205BC…B1.bin`). Windows hides extensions by default —
-turn on *View → Show → File name extensions* and rename again.
+The file name must be exactly the content id from the
+[file table](game-files.md#file-table), ending in `58`, with no extension
+(`77205BC…B158`, not `77205BC…B1` or `77205BC…B158.bin`). Windows hides
+extensions by default: turn on **View > Show > File name extensions** and
+rename again.
 
 ## The game never connects to the server
 
-- **Xbox 360:** the `host=` value in `1vs100Reborn.ini` must be the server's
-  address on your network. The ports (`1000`, `1001`, `1002`) stay as shown
-  unless your server host tells you otherwise.
+- **Xbox 360:** use the `1vs100Reborn.ini` from the download. It points at
+  the community server, `host=1vs100.fans`. Check that the console is online.
 - **PC:** in the launcher's **Settings** tab, the server must say `1vs100.fans`.
   Click **Reset** next to it to put it back.
 
