@@ -22,7 +22,7 @@ Xbox, one copy serves both.
 
 A retail Xbox One or Xbox Series console switched to Dev Mode runs a console
 build of the PC version. On the first start it asks for your game files and
-checks each one. The guide is still in progress.
+checks each one.
 
 → [Xbox One / Xbox Series setup](xbox-one-series.md)
 
