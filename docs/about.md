@@ -6,7 +6,7 @@ of a hundred.
 
 The official service ended in 2010, and with it every show. The game still
 works, but it had nothing to connect to. This project is a server of our own
-that runs the show again — self-hosted software for the live backend, a
+that runs the show again: self-hosted software for the live backend, a
 loader that lets Xbox 360 copies reach it, and a PC build so the game plays
 on modern computers too.
 
@@ -19,7 +19,7 @@ on modern computers too.
 ## Disclaimer
 
 1vs100 Reborn is a community project, not affiliated with Microsoft. You play
-with your own copy of the game and your own console files — this project
+with your own copy of the game and your own console files. This project
 never ships game content.
 
 ---
