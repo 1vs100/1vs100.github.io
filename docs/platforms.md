@@ -10,11 +10,11 @@ game. The classic way to play, on original hardware.
 
 → [Xbox 360 setup](xbox-360.md)
 
-## PC (Windows / Linux)
+## PC (Windows / Linux / macOS)
 
-The rebuilt PC version plays online together with Xbox 360 players.
-Needs your own game files from your console — the same packages as
-Xbox, one copy serves both.
+The rebuilt PC version plays online together with Xbox players. A launcher
+checks your game files and sets up your gamertag and Avatar. Needs your own
+game files from your console: the same packages as Xbox, one copy serves both.
 
 → [PC setup](pc.md)
 

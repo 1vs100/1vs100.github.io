@@ -31,15 +31,14 @@ turn on *View → Show → File name extensions* and rename again.
 - **Xbox 360:** the `host=` value in `1vs100Reborn.ini` must be the server's
   address on your network. The ports (`1000`, `1001`, `1002`) stay as shown
   unless your server host tells you otherwise.
-- **PC:** `gameserver_host` in `onevs100.toml` must be the server's host name
-  or address. That is the first thing to re-check.
+- **PC:** in the launcher's **Settings** tab, the server must say `1vs100.fans`.
+  Click **Reset** next to it to put it back.
 
 ## My PC Avatar is a default face
 
-The game did not find your export. Re-check
-[step 2](pc.md#2-set-up-your-avatar-with-360sona): the file must be named
-exactly `avatar.bin` and sit in `player-data/profiles/` (Windows) or
-`userdata/profiles/` (Linux).
+The game has no Avatar for you yet. Open the launcher's **Avatar** tab, bring
+in your Avatar ([step 5](pc.md#5-choose-your-avatar)) and press **LAUNCH**,
+which saves it.
 
 ## My Avatar's clothes look plain online
 
