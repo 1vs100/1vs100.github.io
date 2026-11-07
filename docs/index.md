@@ -14,6 +14,9 @@ community project runs the show again. [More about the project](about.md).
   files to the console and start the game.
 - **You want to play on a PC** (Windows or Linux) → [PC setup](pc.md): point
   the game at your files, export your Avatar, and play.
+- **You have an Xbox One or Xbox Series in Dev Mode** →
+  [Xbox One / Xbox Series setup](xbox-one-series.md): install the app and
+  hand it your game files (work in progress).
 - Not sure which fits you? [Platforms & requirements](platforms.md) compares
   them in ten seconds.
 - Something went wrong? [FAQ](faq.md) · still stuck?

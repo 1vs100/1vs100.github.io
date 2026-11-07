@@ -1,6 +1,6 @@
 # Platforms & requirements
 
-Two ways into the same shows. Pick the one you have — the setup guide for
+Three ways into the same shows. Pick the one you have — the setup guide for
 each lists exactly what you need.
 
 ## Xbox 360
@@ -17,6 +17,14 @@ Needs your own game files from your console — the same packages as
 Xbox, one copy serves both.
 
 → [PC setup](pc.md)
+
+## Xbox One / Xbox Series (Dev Mode)
+
+A retail Xbox One or Xbox Series console switched to Dev Mode runs a console
+build of the PC version. On the first start it asks for your game files and
+checks each one. The guide is still in progress.
+
+→ [Xbox One / Xbox Series setup](xbox-one-series.md)
 
 ---
 **Next:** your setup guide above — or [FAQ](faq.md) if something goes wrong.

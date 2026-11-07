@@ -54,11 +54,12 @@ installed for the catalog (`ONEVS100_AVATAR_CLOSET`).
 Players appear on the leaderboard only if they chose **Public** in the
 game's privacy settings. The page never shows XUIDs or addresses.
 
-## Do I need different game files for PC and Xbox?
+## Do I need different game files for each platform?
 
 No. The game, show, and episode packages are the same files on every
 platform — one copy, checked against the
-[file table](game-files.md#file-table), serves both.
+[file table](game-files.md#file-table), serves Xbox 360, PC, and
+Xbox One / Series.
 
 ---
 **Next:** back to [Xbox 360 setup](xbox-360.md) or [PC setup](pc.md) — or ask on [Discord](https://discord.gg/tV3ajhwFTf).
