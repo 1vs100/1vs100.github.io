@@ -52,4 +52,4 @@ PC and Xbox One / Series check the files for you. The Xbox 360 does not, so chec
 - **Xbox One / Series:** you send them to the console on the first start, see [Xbox One / Xbox Series setup](xbox-one-series.md#7-send-your-game-files).
 
 ---
-**Next:** [Xbox 360 setup](xbox-360.md) · [PC setup](pc.md) · [Xbox One / Xbox Series setup](xbox-one-series.md) · [FAQ](faq.md)
+**Next:** [Xbox 360 setup](xbox-360.md), [PC setup](pc.md), [Xbox One / Xbox Series setup](xbox-one-series.md) or the [FAQ](faq.md).
